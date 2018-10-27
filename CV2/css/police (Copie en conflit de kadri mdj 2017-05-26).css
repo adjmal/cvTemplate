@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+
+@import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One');
+
+/*Police de la page*/
+
+main{
+	font-family:'Arial','sans-serif';
+}
+
+/*Police Div1*/
+
+#name{
+    font-family: 'Inconsolata', monospace, 'sans-serif';
+    font-weight: 100;
+}
+
+#nickname{
+    font-family: 'Inconsolata', monospace, 'sans-serif';
+    font-weight: 600;
+}
+
+#post{
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    color: cadetblue;
+}
+
+#about{
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-weight: 400;
+}
+
+#adresse{
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+
+#numero{
+     font-family: 'Pathway Gothic One', sans-serif;
+}
+
+#mail{
+     font-family: 'Pathway Gothic One', sans-serif;
+}
+
+/*Police Div2 */
+
+.forme_diplome{
+     font-family: 'Inconsolata', monospace;
+     font-weight: 800;
+     font-size: 1.1em;
+}
+
+.forme_date_diplome{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 0.9em;
+}
+
+.forme_etablissement{
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+#description1{
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 0.8em
+}
+
+#description2{
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 0.8em
+}
+
+#description3{
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 0.8em
+}
+
+.forme_exp{
+     font-family: 'Inconsolata', monospace;
+     font-weight: 800;
+     font-size: 1.1em;
+}
+
+.date_exp{
+     font-family: 'Fira Sans', sans-serif;
+     font-size: 0.9em;
+}
+
+.forme_etablissement{
+     font-family: 'Pathway Gothic One', sans-serif;
+     font-size: 0.8em;
+}
+
+
+

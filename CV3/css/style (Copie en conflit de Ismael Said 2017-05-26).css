@@ -1,0 +1,333 @@
+/*page global EST-CE QUE TU VOIS CE MESSAGE ????*/
+
+body{
+	width: 80%;
+	margin: auto;
+	/*border: 1px solid;*/
+  
+  
+  
+}
+
+main{
+	/*display: flex;*/
+    margin: auto;
+    /*border: 1px;*/
+    width: 70%;
+
+    margin: 60px auto 0px auto;
+    background: black;
+    padding: 3%;
+    background: #BBD2E1;
+    padding-bottom: 38px;
+
+
+}
+
+.bouton a {
+  text-decoration: none;
+  color: white;
+}
+
+/* information sur la personne */
+#identite{
+	/*border: 1px solid;*/
+  
+}
+
+.div3{
+  flex-wrap: wrap;
+  width: 300px;
+  text-align: center;
+  margin: 0 auto 10px auto;
+}
+
+#zind-up{
+
+  flex-wrap: wrap;
+  width: 3003px;
+  text-align: center;
+  margin: 0 auto 0px auto;
+  
+}
+
+#zind-down{
+
+  position: fixed;
+  justify-content: space-around;
+  display: flex; 
+  width: 56%;
+  bottom: -10px
+}
+
+#accueil{
+  background-color: rgb(159, 178, 200); 
+}
+
+#accueil:hover{
+  background-color: rgb(119, 140, 170); 
+  transition: 0.5s;
+}
+
+
+#envoyer{
+  background-color: rgb(159, 210, 191); 
+}
+
+#envoyer:hover{
+  
+  background-color: rgb(139, 180, 171); 
+  transition: 0.5s;
+}
+
+#modifier{
+  background-color: rgb(210, 178, 191); 
+}
+
+#modifier:hover{
+  background-color: rgb(190, 158, 161); 
+  transition: 0.5s;
+}
+.bouton{
+  text-align: center;
+  justify-content: center;
+  border: 2px solid ; 
+  border: none;
+  color: white;
+  padding: 10px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 1px;
+}
+
+
+
+
+#grdiv{
+  display: flex;
+  flex-wrap: wrap;
+  background: #FBFCFA;
+  width: 70%;
+  padding-top: 20px;
+  width: 100%;
+  box-shadow: 9px -8px 46px 0px;
+  background: #FBFCFA;
+
+}
+
+
+
+#picture{
+    position: relative;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: 2px solid black;
+    margin-left: 5px;
+    margin-top: 5px;
+    
+}
+
+#name{
+  
+  padding-bottom: -10px;
+  
+}
+
+
+#about{
+	width: 100%;
+  max-width: 200px;
+	margin: 0px 30px;
+ padding-right: 30px;
+  text-align: justify;
+  line-height: 20px;
+  overflow: hidden;
+    
+}
+
+footer{
+  text-align: center;
+
+}
+
+
+#about_you_btn{
+  width: 230px;
+}
+
+#contact_btn{
+  text-align: left;
+  margin-left: 30px;
+}
+#information{
+    /*background:#ccc;*/
+    line-height:30px;
+    text-align:center;
+}
+
+#informations_btn{
+  text-align: left;
+  margin-left: 30px;
+}
+/*separation de la page en deux*/
+#div1{
+	/*border: 1px solid red;*/
+	/*width: 40%;*/
+  flex: 1;
+  margin: 50px 0px;
+  border-right: 1px dotted black;
+  background: #FBFCFA;
+	/*background-color: gray;*/
+   
+}
+#div2{
+  margin: 50px auto;
+	/*width: 60%;*/
+  flex: 2;
+	/*border: 1px solid;*/
+  line-height: 30px;
+	text-align: center;
+  background: #FBFCFA;
+}
+
+
+ul>li{
+    text-align: left;
+    padding:0px;
+}
+li {
+	padding: 0px;
+}
+
+/*.trait{
+  content:'';
+  width:50%;
+  height:1rem;
+  margin:auto;
+  text-align:center;
+  position:relative;
+  font-size:large;
+  color: blue;
+}
+*/
+
+.trait ul{
+  list-style-type: none;
+}
+
+.trait:before{
+ /* content:'';*/
+  position:absolute;
+  left:calc(-38% - 4px);
+  top:calc(90% - 3px);
+  /*border-bottom:1px ridge grey;*/
+  width:50%;
+}
+
+.trait:after{
+ /* content:'';*/
+  position:absolute;
+  right:calc(-38% - 4px);
+  top:calc(90% - 3px);
+  /*border-bottom:1px ridge grey;*/
+  width:50%;
+}
+
+.hide{
+    display:none;
+}
+
+
+@media screen and (max-width: 1280px) {
+  #grdiv{
+    flex-direction: column;
+  }
+
+  #div1{
+  /*border: 1px solid red;*/
+  width: 100%;
+  margin: 50px 0px;
+  border-right: none;
+  background: white;
+  /*background-color: gray;*/
+   
+}
+  #div2{
+    margin: 50px 0px;
+    width: 100%;
+    /*border: 1px solid;*/
+    line-height: 30px;
+    text-align: center;
+    background: white;
+  }
+  #diplome1_btn{
+    display: none;
+    z-index: 3;
+  }
+  #picture{
+    float: left;
+    display: inline-block;
+   
+    margin-left: 50px;
+    margin-top: 5px;
+  }
+
+  #information{
+    /*background:#ccc;*/
+    line-height:30px;
+    text-align: left;
+}
+  #name{
+  margin: 10px 0 0 200px;
+  padding-top: 15px;
+
+  }
+
+
+  #nickname{
+    
+  margin: 0 0 0 200px;
+  padding-top: 0px;
+  }
+
+  #post{
+    
+  margin: 0 0 0 200px;
+  padding-top: : 2px;
+  }
+
+  #informations_btn{
+    margin-left: 200px;
+
+  }
+
+  #about{
+    text-align: justify;
+  }
+
+  #about_btn {
+    text-align: center;
+  }
+  #zind-up{
+    display: none;
+  }
+}
+
+
+
+
+.trait1{
+    display: flex;
+}
+
+.gauche{
+     border: 0.5px solid black;
+    width: 20%;
+    margin: auto;
+}
+

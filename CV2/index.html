@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="css/style.css"/>
+		<link rel="stylesheet" href="css/police.css"/>
+		<link rel="icon" type="image/png" href="images/favicon.png" />
+		<title>
+			Édition
+		</title>
+	</head>
+	<body>
+		<!-- espace de travail -->
+		<main>
+			<!--Première partie -->
+			<div id="grdiv">
+				<div id="div1">
+
+					<!-- Informations personnelles de l'utilisateur -->
+
+					<div id="information">
+						<div id="identite">
+		                    <div id="picture"></div>
+		                    <div id="put_left">
+								<p id="name">Nom</p>
+								<p id="nickname">Prénom</p>
+								<p id="post">Poste</p>
+							</div>
+						</div>
+					</div>
+						
+						<!-- Inputs "Informations personnelles" -->
+						
+					<div id="informations_btn" class="hide" >
+						<form method="get" action="#">
+							<p>
+								<label for="name"  ></label>
+								<input type="text" name="Name" id="name_btn" class="test" placeholder="Nom">
+							</p>
+							<p>
+								<label for="nickname"></label>
+								<input type="text" name="nickname" id="nickname_btn" placeholder="Prénom">
+							</p>
+							<p>
+								<label for="poste"></label>	
+								<input type="text" name="poste" id="poste_btn" placeholder="Poste">
+							</p> 
+						</form>	
+					</div>
+					
+						<!-- À propos de l'utilisateur -->
+					<div id="about_you"> 					
+		                <h1 class="trait" ><img src="images/trait_left.png" width="30px">À propos de vous<img src="images/trait_right.png" width="30px">
+		                </h1>
+						<p id="about">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et interdum acciderat, ut siquid in penetrali secreto nullo citerioris vitae ministro praesente paterfamilias uxori susurrasset in aurem, velut Amphiarao referente aut Marcio, quondam vatibus inclitis, postridie disceret imperator. ideoque etiam parietes arcanorum soli conscii timebantur.
+						</p>
+						
+							<!--Inputs "À propos de vous" -->
+
+						<div id="about_btn">
+							<form action="#" method="get" class="hide show">
+								<p>
+									<textarea name="aboutyou" rows="4" cols="50" placeholder="Parlez de vous (vos goûts, sports, habitudes...)" id="about_you_btn" ></textarea>
+									</p>
+									
+							</form>
+						</div>
+						
+							<!-- Contact -->
+
+						<div id="contact">
+								
+								<!-- Adresses utiles de l'utilisateur -->
+		                    <div class="trait" >
+			                    <h1><img src="images/trait_left.png" width="30px">Me contacter<img src="images/trait_right.png" width="30px">
+			                    </h1>
+								<div id="justif_center">
+									<p id="adresse">Adresse Postale</p>
+									<p id="numero">Numéro de téléphone</p>	
+									<p id="mail">Mail</p>
+								</div>
+							</div>
+								
+								<!-- Inputs "Contact" -->
+								
+								<div id="contact_btn" class="hide">
+									<form action="#" method="get">
+										<p id="contact_btn_first">
+										    <input type="text" name="contact" id="adresse_btn" placeholder="Adresse postale">
+										</p>
+										<p id="contact_btn_sec">
+										    <input type="text" name="numero" id="numero_btn" placeholder="Numéro de téléphone">
+										</p>
+										<p id="contact_btn_third">
+										    <input type="text" name="mail" id="mail_btn" placeholder="Mail">
+										</p>
+									</form>
+								</div>
+								
+		                        
+							</div>
+						</div>
+					</div>
+				
+				<!-- Déscription des diplômes antérieurs obtenus -->
+
+				<div id="div2">
+					
+		            <h1 class="trait" >
+		            <img src="images/trait_left.png" width="30px">Diplômes<img src="images/trait_right.png" width="30px">
+		            </h1>
+		            <div id="diplome">
+			            <div> 
+				            <ul>
+					            <li> 
+							        <span id="diplome1" class="forme_diplome" >Diplôme 1</span> <span id="date_diplome1" class="forme_date_diplome">Période</span> <br/> 
+									<span id="etablissement1" class="forme_etablissement">Obtenu dans l'établissement</span><span>.</span> <span class="description" id="description1"> Description...</span> 
+								</li>
+		                        <li> 
+							  		<span id="diplome2"class="forme_diplome">Diplôme 2</span> <span id="date_diplome2" class="forme_date_diplome">Période</span> <br/> 
+									<span id="etablissement2" class="forme_etablissement">Obtenu dans l'établissement</span><span>.</span> <span id="description2" class="description"> Description.. </span> 
+								</li>
+		                        <li> 
+								    <span id="diplome3" class="forme_diplome">Diplôme 3</span> <span id="date_diplome3" class="forme_date_diplome">Période</span> <br/> 
+									<span id="etablissement3" class="forme_etablissement">Obtenu dans l'établissement</span><span>.</span> <span class="description" id="description3">Description... </span> 
+			                    </li>
+		                    </ul>
+						</div> 
+					</div>
+
+					<!-- Diplome 1 -->
+					<div id="diplome1_btn" class="hide">
+						<h2 id="margin_edition">
+						Édition diplôme 1						
+						</h2>
+					    <form method="get" action="#">
+							<p class="etab2 left_1">
+								<input type="text" name="nom diplome" id="name_diplome_btn1" placeholder="Nom du diplôme">
+								<label for="date"></label>
+								<input type="datetime" name="date_diplome_btn1" id="date_diplome_btn1" placeholder="Période (Ex: 2014-2017)">
+							</p>
+							<p class="etab_1 left_1">
+								<input type="text" name="Name" id="etablissement_btn1" placeholder="Établissement">							
+							</p>
+							<p class="position_textaera">
+								<textarea name="etablissement1_btn" rows="4" cols="50" placeholder="Type de diplome" id="description_btn1" ></textarea>
+							</p> 
+								
+						</form>
+					</div>
+
+					<!-- Diplome 2 -->
+					<div id="diplome2_btn" class="hide">
+						<h2>
+						   	Édition diplôme 2
+						</h2>
+						<form method="get" action="#">
+							<p class="etab2 left_1">
+								<input type="text" name="nom diplome" id="name_diplome_btn2" placeholder="Nom du diplôme">
+								<label for="date"></label>
+								<input type="datetime" name="date_diplome_btn2" id="date_diplome_btn2" placeholder="Période (Ex: 2014-2017)">
+							</p>
+							<p class="etab_1 left_1">
+								<input type="text" name="Name" id="etablissement_btn2" placeholder="Établissement">
+							</p>
+							<p class="position_textaera">
+								<textarea name="etablissement" rows="4" cols="50" placeholder="Type de diplome" id="description_btn2" ></textarea>
+							</p> 
+								
+						</form>
+					</div>
+					
+					<!-- Diplome 2 -->  
+					<div id="diplome3_btn" class="hide">
+						<h2>
+						    Édition diplôme 3
+						</h2>
+						<form method="get" action="#">
+							<p class="etab2 left_1">
+								<input type="text" name="nom diplome" id="name_diplome_btn3" placeholder="Nom du diplôme">
+								<label for="date"></label>
+								<input type="datetime" name="date_diplome_btn3" id="date_diplome_btn3" placeholder="Période (Ex: 2014-2017)">
+							</p>
+							<p class="etab_1 left_1">
+								<input type="text" name="Name" id="etablissement_btn3" placeholder="Établissement">
+							</p>
+							<p class="position_textaera">
+								<textarea name="etablissement" rows="4" cols="50" placeholder="Type de diplome" id="description_btn3" ></textarea>
+							</p> 
+						</form>
+					</div>
+
+					<!-- Éxpérience -->
+		            <h1 class="trait" >
+		            <img src="images/trait_left.png" width="30px">Éxpériences<img src="images/trait_right.png" width="30px">
+		            </h1>
+					
+					<div id="experience">
+						<ul>
+							<li>
+								<span id="exp1" class="forme_exp">Poste 1</span> <span id="date_exp1" class="describ_poste"> Période</span> <br/> 
+								<span id="entreprise_exp1" class="describ_poste">Déscription du poste</span>
+							</li>
+							<li>
+								<span id="exp2" class="forme_exp">Poste 2</span> <span id="date_exp2" class="describ_poste"> Période</span> <br/> 
+								<span id="entreprise_exp2" class="describ_poste">Description du poste</span>
+							</li>
+							<li>
+								<span id="exp3" class="forme_exp">Poste 3</span> <span id="date_exp3" class="describ_poste"> Période</span> <br/> 
+								<span id="entreprise_exp3" class="describ_poste">Description du poste</span>
+							</li>
+
+						</ul>
+						
+						
+						<!-- Inputs "Éxpérience" -->
+						<div id="experience_btn1" class="hide">
+							<form method="get" action="#">
+								<h2>
+									Édition poste 1
+								</h2>
+								<p class="left_1">				
+									<input type="text" name="Name" id="exp_btn1" placeholder="Nom du poste">
+									<label for="name"></label> <input type="datetime" name="experience" id="date_exp_btn1" placeholder="Période">
+								</p>
+								<p class="left_1">
+									<textarea name="entreprise" rows="4" cols="50" placeholder="Décrivez votre poste..." id="entreprise_exp_btn1" ></textarea>
+								</p> 
+							</form>
+						</div>
+
+						<div id="experience_btn2" class="hide">
+							<form method="get" action="#">
+							    <h2>Édition poste 2</h2>
+								<p class="left_1">				
+									<input type="text" name="Name" id="exp_btn2" placeholder="Nom du poste">
+									<label for="name"></label> <input type="datetime" name="experience" id="date_exp_btn2" placeholder="Période">
+								</p>
+								<p class="left_1">
+									<textarea name="entreprise" rows="4" cols="50" placeholder="Décrivez votre poste..." id="entreprise_exp_btn2" ></textarea>
+								</p> 
+							</form>
+						</div>
+
+						<div id="experience_btn3" class="hide">
+							<form method="get" action="#">
+							    <h2>Édition poste 3</h2>
+								<p class="left_1">				
+									<input type="text" name="Name" id="exp_btn3" placeholder="Nom du poste">
+									<label for="name"></label> <input type="datetime" name="experience" id="date_exp_btn3" placeholder="Période">
+								</p>
+								<p class="left_1">
+										
+									<textarea name="entreprise" rows="4" cols="50" placeholder="Décrivez votre poste..." id="entreprise_exp_btn3" ></textarea>
+								</p> 
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="div3" id="send">
+				<button id="accueil" class="bouton"><a href="../index.html">Accueil</a></button>
+				<button id="envoyer" class="action bouton" >Envoyer</button>
+	     		<button id="modifier" class="bouton">Modifier</button>
+	       	</div>		     	
+		</main>
+		<script src="http://code.jquery.com/jquery.js"></script>
+		<script src="main.js"></script>
+	</body>
+</html>
+		
+		
+
+
+
+
